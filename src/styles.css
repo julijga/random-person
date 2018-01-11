@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Anton', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Anton');
+}
+* {
+  font-family: 'Anton', sans-serif;
+}
 body {
   margin: 0;
   width: 100%;
@@ -6,3 +13,4 @@ body {
   background-image: radial-gradient(farthest-corner at 50% 50%,
   #fce8ad 0%, #a25936 85%);
 }
+

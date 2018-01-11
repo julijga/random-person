@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PictureComponent } from './picture/picture.component';
 
 @Component({
   selector: 'app-root',
@@ -6,10 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  baseUrl = 'https://robohash.org/';
-  random = Math.floor(Math.random() * (50000 + 1));
-  url = this.baseUrl + this.random + '/';
   generate = function () {
-    this.url = this.baseUrl + Math.floor(Math.random() * (50000 + 1)) + '/';
+    new PictureComponent().generate();
   };
 }
