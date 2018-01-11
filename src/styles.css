@@ -13,4 +13,7 @@ body {
   background-image: radial-gradient(farthest-corner at 50% 50%,
   #fce8ad 0%, #a25936 85%);
 }
-
+.container {
+  display: block;
+  padding: 5%;
+}

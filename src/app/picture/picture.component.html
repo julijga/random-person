@@ -1,3 +1,7 @@
+<h1 class="title">
+  {{title | uppercase}}
+</h1>
 <div class="picture-wrapper">
-  <img width="300" alt="{{baseUrl + 'motherfucker' + '/'}}" src="{{url}}">
+  <img alt="{{baseUrl + 'motherfucker' + '/'}}" src="{{url}}">
 </div>
+<div class="button" (click)="generate()">Press me</div>
