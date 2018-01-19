@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { PictureComponent } from './picture/picture.component';
 import { HttpClientModule } from '@angular/common/http';
+import {RobotNameService} from './robot-name.service';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [RobotNameService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
